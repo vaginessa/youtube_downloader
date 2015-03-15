@@ -1,0 +1,2 @@
+## inprogress.
+# an accurate offline YouTube page anlz, that fetch dash manifest to improve accuracy and add resources (VO,AO,...), including data from http://en.wikipedia.org/wiki/YouTube#Quality_and_formats and improving the data from various 4k and live streaming from youtube + anlz dash data.
