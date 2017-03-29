@@ -1,0 +1,56 @@
+.container-div{
+    width: 750px;
+    margin: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-div{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.section-table{
+    width: 100%;
+    color: black;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: normal;
+    font-family: arial, sans-serif;
+}
+
+.section-table td{
+    border: 1px solid #b1b1b1;
+    padding: 10px 5px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.settings-span{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header-text{
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.attribution-div{
+    font-size: 10px;
+    background-color: #E0E0E0;
+    padding: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: normal;
+    margin-top: 20px;
+    width: 675px;
+    margin-right: auto;
+    margin-left: auto;
+}

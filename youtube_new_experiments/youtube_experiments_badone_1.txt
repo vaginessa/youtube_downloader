@@ -1,0 +1,211 @@
+{
+  "environment": {
+    "country": "IL"
+    , "experiments": [
+        9415398
+      , 9416475
+      , 9417035
+      , 9417482
+      , 9419979
+      , 9420289
+      , 9422596
+      , 9423552
+      , 9423555
+      , 9424603
+      , 9424678
+      , 9425648
+      , 9428398
+      , 9429446
+      , 9430082
+      , 9431012
+      , 9432923
+      , 9432939
+      , 9433096
+      , 9433221
+      , 9433839
+      , 9433870
+      , 9433946
+      , 9434077
+      , 9434949
+      , 9435526
+      , 9437552
+      , 9438152
+      , 9438309
+      , 9438326
+      , 9438662
+      , 9439451
+      , 9439580
+      , 9439592
+      , 9439877
+      , 9440054
+      , 9440345
+      , 9440723
+      , 9440792
+      , 9441194
+      , 9441742
+      , 9441761
+      , 9441799
+      , 9441929
+      , 9442077
+      , 9442115
+      , 9442210
+      , 9442261
+      , 9442426
+      , 9442746
+      , 9443156
+      , 9443507
+      , 9443715
+      , 9443965
+      , 9444180
+      , 9444189
+      , 9444355
+      , 9444372
+      , 9444400
+      , 9444657
+      , 9444818
+      , 9444987
+      , 9445070
+      , 9445451
+      , 9445634
+      , 9445813
+      , 9445846
+      , 9445854
+      , 9445908
+      , 9446054
+      , 9446143
+      , 9446169]
+    , "flags": {
+      "atomSubscriptions": false
+      , "atomSubscriptionsFilterWatched": false
+      , "atomSubscriptionsMultirowShelves": true
+      , "atomSubscriptionsRecentThreshold": 0
+      , "atom_subscriptions": false
+      , "atom_subscriptions_filter_watched": false
+      , "atom_subscriptions_multirow_shelves": true
+      , "atom_subscriptions_recent_threshold": 0
+      , "bentoRetentionBentoFirst": false
+      , "bento_retention_bento_first": false
+      , "deferPivotInflation": false
+      , "defer_pivot_inflation": false
+      , "delayInstantSearch": 1
+      , "delay_instant_search": 1
+      , "diaryTopicsPage": false
+      , "diary_topics_page": false
+      , "enableLocalWatchQueue": false
+      , "enableSafetyModeRename": true
+      , "enableWhyThisAdForTv": false
+      , "enable_local_watch_queue": false
+      , "enable_safety_mode_rename": true
+      , "enable_why_this_ad_for_tv": false
+      , "freshSearchUi": false
+      , "freshSearchUiLessAnimations": false
+      , "freshSearchUiShiftUp": false
+      , "freshTransport": true
+      , "fresh_search_ui": false
+      , "fresh_search_ui_less_animations": false
+      , "fresh_search_ui_shift_up": false
+      , "fresh_transport": true
+      , "ftcHdThumbs": false
+      , "ftc_hd_thumbs": false
+      , "hdBadging": false
+      , "hd_badging": false
+      , "homepageLinearFeedConfig": 0
+      , "homepageTwoShelfRecommended": false
+      , "homepageTwoShelfRecommendedConfig": 0
+      , "homepage_linear_feed_config": 0
+      , "homepage_two_shelf_recommended": false
+      , "homepage_two_shelf_recommended_config": 0
+      , "hqChannelThumbs": false
+      , "hq_channel_thumbs": false
+      , "janusDialog": false
+      , "janusSignInHeader": false
+      , "janusToasts": false
+      , "janus_dialog": false
+      , "janus_sign_in_header": false
+      , "janus_toasts": false
+      , "limitVisitorHeaderOnAttestation": false
+      , "limit_visitor_header_on_attestation": false
+      , "longformSearchShelf": false
+      , "longform_search_shelf": false
+      , "mdxIgnoreFlings": false
+      , "mdx_ignore_flings": false
+      , "newHorizontalList": false
+      , "newMdxSkipButtonCast": false
+      , "newMdxSkipButtonPair": false
+      , "newSettings": false
+      , "newShelfList": false
+      , "new_horizontal_list": false
+      , "new_mdx_skip_button_cast": false
+      , "new_mdx_skip_button_pair": false
+      , "new_settings": false
+      , "new_shelf_list": false
+      , "noStoryboard": false
+      , "no_storyboard": false
+      , "samoaSubscriptions": false
+      , "samoa_subscriptions": false
+      , "showPreviewTooltip": false
+      , "showScrubberHint": false
+      , "showSubsToast": true
+      , "showTopicsPage": false
+      , "show_preview_tooltip": false
+      , "show_scrubber_hint": false
+      , "show_subs_toast": true
+      , "show_topics_page": false
+      , "smartPairing": true
+      , "smart_pairing": true
+      , "startTransportControlsFocusWithPause": false
+      , "start_transport_controls_focus_with_pause": false
+      , "useColorButtons": false
+      , "useHorizontalArrowButtonsToFocus": false
+      , "useHorizontalArrowButtonsToSkip": false
+      , "useMdxProtocolV3": false
+      , "useYoutubeiDomain": false
+      , "use_color_buttons": false
+      , "use_horizontal_arrow_buttons_to_focus": false
+      , "use_horizontal_arrow_buttons_to_skip": false
+      , "use_mdx_protocol_v3": false
+      , "use_youtubei_domain": false
+      , "videoProgress": false
+      , "video_progress": false
+      , "voiceSearch": false
+      , "voice_search": false
+      , "xhrExponentialBackoff": false
+      , "xhr_exponential_backoff": false
+    }
+    , "language": null
+    , "os": "Android"
+    , "os_version": "5.1.1"
+    , "server_ua": "com.google.android.youtube/11.33.58(Linux; U; Android 5.1.1; iw_IL; SM-N920C Build/LMY47X) gzip
+    , gzip(gfe)
+    "
+    , "start_time": 1472677200
+    , "theme": "cl"
+    , "tv_binary": "/app-prod.js"
+    , "tv_css": "/app-prod.css"
+    , "varz": {
+      "activity_sw": 100
+      , "audio_config_sw": 1
+      , "backend_error_sw": 25
+      , "cast_kids_promo": false
+      , "dash_enabled": true
+      , "exceptions_sw": 100
+      , "fragment_sw": 100
+      , "h5_exceptions_sw": 100
+      , "interaction_logging_sw": 100
+      , "network_retry": true
+      , "orbit_survey": 0
+      , "playback_failure_sw": 50
+      , "post_play_sw": 100
+      , "prevent_progressive": true
+      , "startup_sw": 5
+      , "steel_logging_sw": 100
+      , "steel_whitelist_sw": 100
+      , "tv_4k_house_channel": true
+      , "voice_gesture_sw": 100
+      , "vvt_vss_logging": 0
+      , "watch_list_sw": 100
+      , "xbox_launches": "939403"
+    }
+    , "visitor_data": "CgsyMEsyRUIyYzQwSQ%3D%3D"
+  }
+}

@@ -1,0 +1,30 @@
+Credits for the sound file goes to http://www.freesound.org/ and the creator
+
+Using Creative Commons (CC) License
+
+File: BellTinyStrike.ogg
+Creator: HerbertBoland
+
+Original files were .wav files. Converted them to .ogg to save space.
+-------------------------------------------------------------------------------------
+
+Credits for following icons goes to http://www.famfamfam.com (always there when you need icons) and Mark James.
+Files:
+icons/error.png
+icons/exclaimation.png
+icons/information.png
+icons/help.png
+
+
+Credits for following icons goes to Icons-Land (http://www.iconarchive.com/artist/icons-land.html) and http://www.iconarchive.com (for awesome website).
+Files:
+icons/play.png
+icons/play-hover.png
+icons/stop.png
+icons/stop-hover.png
+icons/repeat.png
+icons/repeat-19.png
+icons/repeat-38.png
+icons/no-repeat.png
+icons/no-repeat-19.png
+icons/no-repeat-38.png

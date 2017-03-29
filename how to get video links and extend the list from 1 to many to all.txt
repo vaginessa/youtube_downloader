@@ -1,0 +1,10 @@
+1. javascript only - try to fetch <video> tag and get its src, if its "blob" (encrypted spoffed media - it will not work)
+
+2. client or server - read the html page, locate in the source: ytplayer.config
+   convert it to JSON object.
+   then you can look for 
+      ytplayer.config.args.adaptive_fmts
+      ytplayer.config.args.url_encoded_fmt_stream_map
+      split and decode ->  "," -> "&" -> "="
+      
+3. using (2) get the string from "ytplayer.config.args.dashmpd" its called the of dash-manifest (xml) -  and parse it to fetch all video sources (even video-only and audio-only sources).

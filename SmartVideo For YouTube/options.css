@@ -1,0 +1,184 @@
+body {
+    background-color: #FFFFFF;
+    margin-top: 4px;
+    margin-left: 0px;
+}
+
+.pref-div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: #333333;
+}
+
+.container-div{
+    border: 1px solid #9396A7;
+    margin: 1px;
+}
+
+label{
+    cursor: pointer;
+    display: inline;
+}
+
+.header-text{
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.pref-header-div{
+    text-align: center;
+    width: 100%;
+}
+
+.pref-footer-div{
+    text-align: center;
+    width: 100%;
+}
+
+.settings-table{
+    background-color: #f8f8f8;
+    border-collapse: collapse;
+    color: #636363;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    line-height: 11px;
+    margin: auto;
+    width: 100%;
+    font-weight: bold;
+}
+
+.settings-table input, .settings-table select{
+    padding: 0px 3px 0px 2px;
+    vertical-align: middle;
+}
+
+.settings-table input[type="text"], .settings-table select{
+    border: 1px solid #b1b1b1;
+    border-radius: 0px;
+    color: #636363;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.settings-table td{
+    border: 1px solid #9396A7;
+    padding: 2px 5px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.first-td{
+    text-align: center;
+    width: 25px;
+    height: 20px;
+}
+
+.mask-div{
+    background-color: #E0E0E0;
+    display: none;
+    height: 0px;
+    left: 0px;
+    moz-opacity: 0.6;
+    opacity: 0.6;
+    position: absolute;
+    top: 0px;
+    visibility: hidden;
+    width: 0px;
+    z-index: 10;
+}
+
+.header-tr{
+    background-color: #E0E0E0;
+    height: 25px;
+}
+
+.main-header-tr {
+    background-color: #9396A7;
+    color: #FFFFFF;
+    height: 25px;
+    font-size: 13px;
+}
+
+.help-img{
+    height: 16px;
+    margin-left: 5px;
+    vertical-align: inherit;
+    width: 16px;
+}
+
+.tooltip{
+    font-family: "Segoe UI", tahoma, verdana, sans serif;
+    font-size: 12px;
+    border: 1px solid #89898b;
+    max-width: 300px;
+    color: #535353;
+    background-color: #ffffff;
+    background-image: -moz-linear-gradient(top, #ffffff, #eaeaf0);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #ffffff),color-stop(1, #eaeaf0));
+    background-image: -webkit-linear-gradient(#ffffff, #eaeaf0);
+    background-image: linear-gradient(top, #ffffff, #eaeaf0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#eaeaf0');
+    -moz-box-shadow: 2px 2px 2px #535353;
+    -webkit-box-shadow: 2px 2px 2px #535353;
+    box-shadow: 2px 2px 2px #535353;
+    padding: 4px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.attribution-div{
+    font-size: 10px;
+    background-color: #E0E0E0;
+    padding: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: normal;
+    width: 500px;
+}
+
+.dev-mode {
+    display: none;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 100px;
+}
+
+.dev-mode .header-tr{
+    background-color: yellow;
+}
+
+.header-line {
+    position: relative;
+}
+
+.donate {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 20px;
+    margin-left: 25px;
+    background-color: #920F0F;
+    padding: 2px 10px;
+    -moz-box-shadow: 2px 2px 1px rgb(201, 194, 194);
+    -webkit-box-shadow: 2px 2px 1px rgb(201, 194, 194);
+    box-shadow: 2px 2px 1px rgb(201, 194, 194);
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}

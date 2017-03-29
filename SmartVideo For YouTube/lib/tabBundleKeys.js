@@ -1,0 +1,43 @@
+(function(global) {	
+    var tabBundleKeys = [
+        "label_delimitor",
+        "percentage",
+        "smart_buffer",
+        "start_playing_when_buffered",
+        "sound",
+        "desktop_notification",
+        "continuation_on_next_line",
+        "loop",
+        "only_notify",
+        "estimated_time",
+        "global_preferences",
+        "no_notification_supported_on_your_browser",
+        "video_buffered",
+        "buffered",
+        "hyphen",
+        "buffered_message",
+        "not_supported",
+        "on",
+        "off",
+        "not_supported",
+        "click_to_enable_for_this_site",
+        "desktop_notification_denied",
+        "notification_status_delimitor",
+        "error",
+        "adblock_interferance_message",
+        "calculating",
+        "waiting",
+        "will_start_buffering_when_initialized",
+        "will_start_playing_when_initialized",
+        "completed",
+        "buffering_stalled",
+        "stopped",
+        "hr",
+        "min",
+        "sec",
+        "any_moment",
+        "popup_donate_to"
+    ];
+    
+    global.tabBundleKeys = tabBundleKeys;
+})(exports);

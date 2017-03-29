@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube&#153; SmartVideo – Preferences</title>
+        <link rel="shortcut icon" href="icons/icon-16.png"/>
+        <link rel="stylesheet" type="text/css" href="options.css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script src="includes/port.js"></script>
+        <script src="base.js"></script>
+        <script src="layout.js"></script>
+        <script src="tooltip.js"></script>
+        <script src="options.js"></script>
+    </head>
+    <body>
+        <div class="pref-div">
+            <div class="header-line">
+                <div class="header-text pref-header-div"> YouTube&#153; <span id="forDevMode">SmartVideo</span> – <bundle key="preferences">Preferences</bundle></div>
+                <a style="display:none;" href="" class="donate" target="_blank" id="donateLink"><bundle key="donate_to">Donate to</bundle> SmartVideo</a>
+            </div>
+            <center>
+                <table>
+                    <tr><td colspan="2">
+                        <div id="devMode" class="container-div dev-mode">
+                            <table class="settings-table">
+                                <tr class="header-tr"><td><bundle key="log_level">Log Level</bundle><bundle key="label_delimitor">:</bundle></td></tr>
+                                <tr>
+                                    <td><select id="logLevel">
+                                        <option value="0" bundleKey="log_level_off">Off</option>
+                                        <option value="10" bundleKey="log_level_fatal">Fatal</option>
+                                        <option value="20" bundleKey="log_level_error">Error</option>
+                                        <option value="30" bundleKey="log_level_warn">Warn</option>
+                                        <option value="40" bundleKey="log_level_log">Log</option>
+                                        <option value="50" bundleKey="log_level_info">Info</option>
+                                        <option value="60" bundleKey="log_level_debug">Debug</option>
+                                        <option value="70" bundleKey="log_level_trace">Trace</option>
+                                        <option value="100" bundleKey="log_level_all">All</option>
+                                    </select></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td></tr>
+                    <tr>
+                        <td valign="top">
+                            <table>
+                                <tr><td colspan="2">
+                                        <div class="container-div">
+                                            <table class="settings-table">
+                                                <tr class="main-header-tr"><td><input type=checkbox id="enable">&nbsp;<label for="enable"><bundle key="control_videos_on_youtube">Control videos on YouTube</bundle></label></td></tr>
+                                            </table>
+                                            <table id="prefs-container" class="settings-table">
+                                                <tr><td class="first-td"><input type=checkbox id="loop"/></td><td><label for="loop"><bundle key="loop_all_videos">Loop all videos</bundle></label></td></tr>
+                                                <tr><td class="first-td"><input type=checkbox id="hidePopup"/></td><td><label for="hidePopup"><bundle key="hide_player_settings_popup">Hide player settings popup</bundle></label></td></tr>
+                                                <tr class="header-tr"><td colspan="2"><bundle key="buffering_options">Buffering Options</bundle><bundle key="label_delimitor">:</bundle></td></tr>
+                                                <tr><td class="first-td"><input type="checkbox" id="autoPlay"/></td><td><label for="autoPlay"><bundle key="start_playing_as_soon_as_page_loads">Start playing right away</bundle></label></td></tr>
+                                                <tr><td class="first-td"><input type="checkbox" id="autoBuffer"/></td><td><label for="autoBuffer"><bundle key="start_buffering_as_soon_as_page_loads">Start buffering right away</bundle></label></td></tr>
+                                                <tr><td class="first-td" style="border-bottom: none;"><input type="checkbox" id="autoPlayOnBuffer"/></td><td><label for="autoPlayOnBuffer"><bundle key="start_playing_when_buffered">Start playing when buffered</bundle> <bundle key="continuation_on_next_line">-</bundle></label></td></tr>
+                                                <tr><td class="first-td" rowspan="2" style="border-top: none;">&nbsp;</td><td id="container-td-bufferedPlay-first">&nbsp;<input type="text" style="width:30px;" maxlength="3" id="autoPlayOnBufferPercentage"> <bundle key="percentage">%</bundle> &nbsp;&nbsp;&nbsp;<input type="checkbox" id="autoPlayOnSmartBuffer"> <label for="autoPlayOnSmartBuffer"><bundle key="smart_buffer">Smart Buffer</bundle></label></td></tr>
+                                                <tr><td id="container-td-bufferedPlay-second"><input type="checkbox" id="onlyNotification"/><label for="onlyNotification"><bundle key="dont_play_only_notify">Don't play; only notify that video has buffered</bundle></label></td></tr>
+                                                <tr><td class="first-td"><input type="checkbox" id="turnOffPagedBuffering"/></td><td><label for="turnOffPagedBuffering"><bundle key="turn_off_paged_buffering">Ensure that videos are buffered even if they are paused</bundle></label></td></tr>
+                                                <tr><td class="first-td"><input type="checkbox" id="saveBandwidth"/></td><td><label for="saveBandwidth"><bundle key="save_bandwidth">Save Bandwidth; Do not initialize video until I click</bundle></label></td></tr>
+                                                <tr class="header-tr"><td colspan="2"><bundle key="video_quality">Video Quality</bundle><bundle key="label_delimitor">:</bundle><helpIcon text="help_experimental_quality_for_html5" iconType="error"/></td></tr>
+                                                <tr><td colspan="2"><select id="quality">
+                                                    <option value="default" bundleKey="quality_auto">Let YouTube decide</option>
+                                                    <option value="tiny" bundleKey="quality_tiny">Tiny (H <= 144 px)</option>
+                                                    <option value="small" bundleKey="quality_small">Small (H <= 240 px)</option>
+                                                    <option value="medium" bundleKey="quality_medium">Medium (H<= 360 px)</option>
+                                                    <option value="large" bundleKey="quality_large">Large (H<= 576 px)</option>
+                                                    <option value="hd720" bundleKey="quality_hd720">HD720 (H<= 720 px)</option>
+                                                    <option value="hd1080" bundleKey="quality_hd1080">HD1080 (H<= 1080 px)</option>
+                                                    <option value="highres" bundleKey="quality_highest">Highest (H> 1080 px)</option>
+                                                </select></td></tr>
+                                                <tr><td class="first-td"><input type="checkbox" id="fshd"/></td><td><label for="fshd"><bundle key="do_not_switch_to_hd_on_fullscreen">Do not switch to HD on fullscreen</bundle></label></td></tr>
+                                                <tr><td class="first-td"><input type="checkbox" id="hideAnnotations"/></td><td><label for="hideAnnotations"><bundle key="hide_annotations">Hide annotations by default</bundle></label></td></tr>
+                                                <tr class="header-tr"><td colspan="2"><bundle key="player_size">Player Size</bundle><bundle key="label_delimitor">:</bundle><helpIcon text="help_player_size" iconType="error"/></td></tr>
+                                                <tr><td colspan="2"><select id="playerSize">
+                                                    <option value="default" bundleKey="player_size_auto">Let YouTube decide</option>
+                                                    <option value="small" bundleKey="player_size_small">Small</option>
+                                                    <option value="large" bundleKey="player_size_large">Large</option>
+                                                </select></td></tr>
+                                                <tr><td class="first-td"><input type="checkbox" id="enablePageAction"/></td><td><label for="enablePageAction"><bundle key="enable_page_action">Show loop button on location bar</bundle></label></td></tr>
+                                            </table>
+                                        </div>
+                                </td></tr>
+                            </table>
+                        </td>
+                        <td valign="top">
+                            <table>
+                                <tr><td colspan="2">
+                                    <div class="container-div">
+                                        <table class="settings-table">
+                                               <tr class="main-header-tr"><td><input type=checkbox id="embeded-enable">&nbsp;<label for="embeded-enable"><bundle key="control_embeded_videos">Control embedded videos</bundle></label></td></tr>
+                                        </table>
+                                        <table id="embeded-prefs-container" class="settings-table">
+                                            <tr><td class="first-td"><input type=checkbox id="embeded-loop"></td><td><label for="embeded-loop"><bundle key="loop_all_videos">Loop all videos</bundle></label></td></tr>
+                                            <tr><td class="first-td"><input type=checkbox id="embeded-hidePopup"></td><td><label for="embeded-hidePopup"><bundle key="hide_player_settings_popup">Hide player settings popup</bundle></label></td></tr>
+                                            <tr class="header-tr"><td colspan="2"><bundle key="buffering_options">Buffering Options</bundle><bundle key="label_delimitor">:</bundle></td></tr>
+                                            <tr><td class="first-td"><input type="checkbox" id="embeded-autoPlay"></td><td><label for="embeded-autoPlay"><bundle key="start_playing_as_soon_as_page_loads">Start playing right away</bundle></label></td></tr>
+                                            <tr><td class="first-td"><input type="checkbox" id="embeded-autoBuffer"></td><td><label for="embeded-autoBuffer"><bundle key="start_buffering_as_soon_as_page_loads">Start buffering right away</bundle></label></td></tr>
+                                            <tr><td class="first-td" style="border-bottom: none;"><input type="checkbox" id="embeded-autoPlayOnBuffer"></td><td><label for="embeded-autoPlayOnBuffer"><bundle key="start_playing_when_buffered">Start playing when buffered</bundle> <bundle key="continuation_on_next_line">-</bundle></label></td></tr>
+                                            <tr><td class="first-td" rowspan="2" style="border-top: none;">&nbsp;</td><td id="embeded-container-td-bufferedPlay-first">&nbsp;<input type="text" style="width:30px;" maxlength="3" id="embeded-autoPlayOnBufferPercentage"> <bundle key="percentage">%</bundle> &nbsp;&nbsp;&nbsp;<input type="checkbox" id="embeded-autoPlayOnSmartBuffer"> <label for="embeded-autoPlayOnSmartBuffer"><bundle key="smart_buffer">Smart Buffer</bundle></label></td></tr>
+                                            <tr><td id="embeded-container-td-bufferedPlay-second"><input type="checkbox" id="embeded-onlyNotification"/><label for="embeded-onlyNotification"><bundle key="dont_play_only_notify">Don't play; only notify that video has buffered</bundle></label></td></tr>
+                                            <tr><td class="first-td"><input type="checkbox" id="embeded-turnOffPagedBuffering"/></td><td><label for="embeded-turnOffPagedBuffering"><bundle key="turn_off_paged_buffering">Ensure that videos are buffered even if they are paused</bundle></label></td></tr>
+                                            <tr><td class="first-td"><input type="checkbox" id="embeded-saveBandwidth"/></td><td><label for="embeded-saveBandwidth"><bundle key="save_bandwidth">Save Bandwidth; Do not initialize video until I click</bundle></label></td></tr>
+                                            <tr class="header-tr"><td colspan="2"><bundle key="video_quality">Video Quality</bundle><bundle key="label_delimitor">:</bundle><helpIcon text="help_experimental_quality_for_html5" iconType="error"/></td></tr>
+                                            <tr><td colspan="2"><select id="embeded-quality">
+                                                <option value="default" bundleKey="quality_auto">Let YouTube decide</option>
+                                                <option value="small" bundleKey="quality_small">Small (<= 320*240 px)</option>
+                                                <option value="medium" bundleKey="quality_medium">Medium (<= 640*360 px)</option>
+                                                <option value="large" bundleKey="quality_large">Large (<= 1024*576 px)</option>
+                                                <option value="hd720" bundleKey="quality_hd720">HD720 (<= 1280*720 px)</option>
+                                                <option value="hd1080" bundleKey="quality_hd1080">HD1080 (<= 1920*1080 px)</option>
+                                                <option value="highres" bundleKey="quality_highest">Highest (> 1920*1080 px)</option>
+                                            </select></td></tr>
+                                            <tr><td class="first-td"><input type="checkbox" id="embeded-fshd"></td><td><label for="embeded-fshd"><bundle key="do_not_switch_to_hd_on_fullscreen">Do not switch to HD on fullscreen</bundle></label></td></tr>
+                                            <tr><td class="first-td"><input type="checkbox" id="embeded-hideAnnotations"/></td><td><label for="embeded-hideAnnotations"><bundle key="hide_annotations">Hide annotations by default</bundle></label></td></tr>
+                                            <tr class="header-tr"><td colspan="2"><bundle key="other">Other</bundle><bundle key="label_delimitor">:</bundle></td></tr>
+                                            <tr><td class="first-td"><input type="checkbox" id="embeded-enableFullScreen"></td><td><label for="embeded-enableFullScreen"><bundle key="enable_full_screen_if_not_provided">Enable full screen if not provided</bundle></label></td></tr>
+                                        </table>
+                                    </div>
+                                </td></tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr><td colspan="2"></td></tr>
+                    <tr><td colspan="2">
+                        <div class="container-div">
+                            <table class="settings-table">
+                                <tr class="main-header-tr"><td><bundle key="notifications">Notifications</bundle></td></tr>
+                            </table>
+                            <table class="settings-table">
+                                <tr><td class="first-td"><input type="checkbox" id="desktopNotification"/></td><td><label for="desktopNotification"><bundle key="desktop_notification">Desktop Notification</bundle> (<bundle key="only_if_allowed_by_user">Only if allowed by you</bundle>)</label></td></tr>
+                                <tr><td class="first-td"><input type="checkbox" id="soundNotification"></td><td><label for="soundNotification"><bundle key="sound">Sound</bundle></label></td></tr>
+                            </table>
+                        </div>
+                    </td></tr>
+                    <tr><td colspan="2"></td></tr>
+                    <tr><td colspan="2">
+                        <div class="container-div">
+                            <table class="settings-table">
+                                <tr class="main-header-tr"><td><input type="checkbox" id="playlist-overrides-enableOverrides">&nbsp;<label for="playlist-overrides-enableOverrides"><bundle key="playlist_overrides">Youtube Playlists Overrides</bundle></label></td></tr>
+                            </table>
+                            <table class="settings-table" id="playlist-overrides-prefs-container">
+                                <tbody>
+                                    <tr><td class="first-td"><input type="checkbox" id="playlist-overrides-enable"/></td><td><label for="playlist-overrides-enable"><bundle key="control_videos_on_playlist">Control videos on YouTube playlists</bundle></label></td></tr>
+                                </tbody>
+                                <tbody id="playlist-overrides-prefs-container-enable">
+                                    <tr class="header-tr"><td colspan="2"><bundle key="buffering_options">Buffering Options</bundle><bundle key="label_delimitor">:</bundle></td></tr>
+                                    <tr><td class="first-td"><input type="radio" name="playlist-overrides-autoPlay" id="playlist-overrides-autoPlay"/></td><td><label for="playlist-overrides-autoPlay"><bundle key="start_playing_as_soon_as_page_loads">Start playing right away</bundle></label></td></tr>
+                                    <tr><td class="first-td" style="border-bottom: none;"><input type="radio" name="playlist-overrides-autoPlayOnBuffer" id="playlist-overrides-autoPlayOnBuffer"/></td><td><label for="playlist-overrides-autoPlayOnBuffer"><bundle key="start_playing_when_buffered">Start playing when buffered</bundle> <bundle key="continuation_on_next_line">-</bundle></label></td></tr>
+                                    <tr><td class="first-td" style="border-top: none;">&nbsp;</td><td id="playlist-overrides-container-td-bufferedPlay-first">&nbsp;<input type="text" style="width:30px;" maxlength="3" id="playlist-overrides-autoPlayOnBufferPercentage"> <bundle key="percentage">%</bundle> &nbsp;&nbsp;&nbsp;<input type="checkbox" id="playlist-overrides-autoPlayOnSmartBuffer"> <label for="playlist-overrides-autoPlayOnSmartBuffer"><bundle key="smart_buffer">Smart Buffer</bundle></label></td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td></tr>
+                    <tr><td colspan="2"></td></tr>
+                    <tr><td colspan="2">
+                        <div class="header-text pref-footer-div">
+                            <input type="button" value="Close [Esc]" id="close">
+                        </div>
+                    </td></tr>
+                    <tr><td colspan="2">
+                        <div class="header-text pref-footer-div">
+                            <div class="attribution-div">
+                                YouTube is a trademark of Google Inc. Use of this trademark is subject to Google Permissions. This extension is not associated with YouTube or Google Inc in any way.
+                            </div>
+                        </div>
+                    </td></tr>
+                </table>
+            </center>
+        </div>
+    </body>
+</html>

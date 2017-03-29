@@ -1,0 +1,28 @@
+GET https://www.youtube.com/leanback_ajax?action_environment=1 HTTP/1.1
+Host: www.youtube.com
+Connection: Keep-Alive
+User-Agent: com.google.android.youtube/11.33.58(Linux; U; Android 5.1.1; iw_IL; SM-N920C Build/LMY47X) gzip
+
+
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+X-Content-Type-Options: nosniff
+Content-Disposition: attachment
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000
+Content-Type: application/json; charset=UTF-8
+P3P: CP="This is not a P3P policy! See http://support.google.com/accounts/answer/151657?hl=en for more info."
+Expires: Tue, 27 Apr 1971 19:44:06 EST
+X-XSS-Protection: 1; mode=block; report=https://www.google.com/appserve/security-bugs/log/youtube
+Date: Wed, 31 Aug 2016 21:35:23 GMT
+Server: YouTubeFrontEnd
+Set-Cookie: VISITOR_INFO1_LIVE=cex8t-WOSdU; path=/; domain=.youtube.com; expires=Tue, 02-May-2017 09:28:23 GMT; httponly
+Set-Cookie: YSC=4gpyOlWeIqQ; path=/; domain=.youtube.com; httponly
+Set-Cookie: PREF=f1=40000000; path=/; domain=.youtube.com; expires=Tue, 02-May-2017 09:28:23 GMT
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="36,35,34,33,32,31,30"
+Accept-Ranges: none
+Vary: Accept-Encoding
+Content-Length: 4296
+
+{"environment":{"language":null,"flags":{"enableWhyThisAdForTv":false,"homepageLinearFeedConfig":0,"start_transport_controls_focus_with_pause":false,"fresh_search_ui_less_animations":false,"bentoRetentionBentoFirst":false,"new_settings":false,"useColorButtons":false,"fresh_search_ui_shift_up":false,"janus_dialog":false,"startTransportControlsFocusWithPause":false,"diaryTopicsPage":false,"useYoutubeiDomain":false,"atom_subscriptions_recent_threshold":0,"videoProgress":false,"useHorizontalArrowButtonsToSkip":false,"freshSearchUi":false,"samoa_subscriptions":false,"deferPivotInflation":false,"enable_safety_mode_rename":true,"showPreviewTooltip":false,"xhrExponentialBackoff":false,"show_subs_toast":true,"ftcHdThumbs":false,"janusDialog":false,"homepage_linear_feed_config":0,"atom_subscriptions_multirow_shelves":true,"atomSubscriptions":false,"delayInstantSearch":1,"voiceSearch":false,"newSettings":false,"use_youtubei_domain":false,"use_color_buttons":false,"xhr_exponential_backoff":false,"no_storyboard":false,"homepage_two_shelf_recommended_config":0,"showSubsToast":true,"atomSubscriptionsMultirowShelves":true,"show_scrubber_hint":false,"atomSubscriptionsFilterWatched":false,"voice_search":false,"longformSearchShelf":false,"show_topics_page":false,"defer_pivot_inflation":false,"show_preview_tooltip":false,"fresh_search_ui":false,"new_mdx_skip_button_pair":false,"showScrubberHint":false,"enable_why_this_ad_for_tv":false,"freshSearchUiLessAnimations":false,"mdx_ignore_flings":false,"use_horizontal_arrow_buttons_to_skip":false,"janus_toasts":false,"enableSafetyModeRename":true,"diary_topics_page":false,"smartPairing":true,"video_progress":false,"smart_pairing":true,"homepageTwoShelfRecommended":false,"new_shelf_list":false,"limitVisitorHeaderOnAttestation":false,"noStoryboard":false,"newMdxSkipButtonCast":false,"new_mdx_skip_button_cast":false,"hq_channel_thumbs":false,"use_mdx_protocol_v3":false,"janusToasts":false,"atom_subscriptions":false,"useHorizontalArrowButtonsToFocus":false,"freshSearchUiShiftUp":false,"useMdxProtocolV3":false,"hdBadging":false,"hqChannelThumbs":false,"newMdxSkipButtonPair":false,"janus_sign_in_header":false,"mdxIgnoreFlings":false,"use_horizontal_arrow_buttons_to_focus":false,"samoaSubscriptions":false,"fresh_transport":true,"homepage_two_shelf_recommended":false,"homepageTwoShelfRecommendedConfig":0,"janusSignInHeader":false,"atomSubscriptionsRecentThreshold":0,"showTopicsPage":false,"enableLocalWatchQueue":false,"enable_local_watch_queue":false,"newShelfList":false,"bento_retention_bento_first":false,"atom_subscriptions_filter_watched":false,"hd_badging":false,"longform_search_shelf":false,"delay_instant_search":1,"newHorizontalList":false,"new_horizontal_list":false,"ftc_hd_thumbs":false,"limit_visitor_header_on_attestation":false,"freshTransport":true},"visitor_data":"CgtjZXg4dC1XT1NkVQ%3D%3D","start_time":1472677200,"varz":{"vvt_vss_logging":0,"playback_failure_sw":50,"network_retry":true,"h5_exceptions_sw":100,"post_play_sw":100,"orbit_survey":0,"audio_config_sw":1,"startup_sw":5,"voice_gesture_sw":100,"backend_error_sw":25,"activity_sw":100,"xbox_launches":"939403","interaction_logging_sw":100,"watch_list_sw":100,"fragment_sw":100,"steel_whitelist_sw":100,"prevent_progressive":true,"exceptions_sw":100,"dash_enabled":true,"cast_kids_promo":false,"steel_logging_sw":100,"tv_4k_house_channel":true},"theme":"cl","server_ua":"com.google.android.youtube\/11.33.58(Linux; U; Android 5.1.1; iw_IL; SM-N920C Build\/LMY47X) gzip,gzip(gfe)","os_version":"5.1.1","tv_css":"\/app-prod.css","experiments":[9415398,9416475,9417035,9417482,9419451,9419979,9420289,9422596,9423552,9423555,9424603,9424678,9425648,9428398,9429446,9430082,9430836,9431012,9432923,9432939,9433096,9433221,9433839,9433870,9433946,9434077,9434949,9435521,9435526,9437552,9438153,9438309,9438312,9438327,9438662,9439451,9439580,9439592,9439877,9440017,9440054,9440344,9440723,9440792,9441194,9441742,9441761,9441929,9442077,9442115,9442210,9442426,9442679,9442746,9442778,9443000,9443156,9443507,9443689,9443715,9443840,9443965,9444180,9444189,9444355,9444372,9444400,9444637,9444657,9444818,9444987,9445070,9445451,9445579,9445634,9445813,9445845,9445854,9445907,9446054,9446143,9446169],"country":"IL","os":"Android","tv_binary":"\/app-prod.js"}}

@@ -1,0 +1,312 @@
+{
+   "adblock_interferance_message": {
+      "message": "Adblock (or similar extension) is known to interfere with SmartVideo. Please add this url to adblock whitelist."
+   },
+   "any_moment": {
+      "message": "Any Moment"
+   },
+   "buffered": {
+      "message": "Buffered"
+   },
+   "buffered_message": {
+      "message": "The video has been buffered as requested and is ready to play."
+   },
+   "buffering_options": {
+      "message": "Buffering Options"
+   },
+   "buffering_stalled": {
+      "message": "Buffering is stalled. Will stop."
+   },
+   "calculating": {
+      "message": "Calculating"
+   },
+   "click_to_chagne_notification_style": {
+      "message": "Click here to change notification style"
+   },
+   "click_to_enable_for_this_site": {
+      "message": "Click to enable for this site"
+   },
+   "click_to_go_to_video": {
+      "message": "Click here to go to video"
+   },
+   "close": {
+      "message": "Close"
+   },
+   "completed": {
+      "message": "Completed"
+   },
+   "continuation_on_next_line": {
+      "message": "-"
+   },
+   "control_embeded_videos": {
+      "message": "Control embedded videos"
+   },
+   "control_videos_on_playlist": {
+      "message": "Control videos on YouTube playlists"
+   },
+   "control_videos_on_youtube": {
+      "message": "Control videos on YouTube"
+   },
+   "desktop_notification": {
+      "message": "Desktop Notification"
+   },
+   "desktop_notification_denied": {
+      "message": "You have denied permission for desktop notification for this site"
+   },
+   "do_not_switch_to_hd_on_fullscreen": {
+      "message": "Do not switch to HD on fullscreen"
+   },
+   "donate_to": {
+      "message": "Donate to"
+   },
+   "dont_play_only_notify": {
+      "message": "Don't play; only notify that video has buffered"
+   },
+   "enable_full_screen_if_not_provided": {
+      "message": "Enable full screen if not provided"
+   },
+   "enable_page_action": {
+      "message": "Show loop button on location bar"
+   },
+   "error": {
+      "message": "Error"
+   },
+   "esc": {
+      "message": "Esc"
+   },
+   "estimated_time": {
+      "message": "Estimated Time"
+   },
+   "extension_description": {
+      "description": "Provide description of the extension",
+      "message": "YouTube Optimizer/Enhance. Provides 'Smart Buffer' for slow connections; auto loop; buffer preferences; quality selection; and more"
+   },
+   "global_preferences": {
+      "message": "Global Preferences"
+   },
+   "help_auto_play_on_buffer": {
+      "message": "Once the video is buffered to provided percentage, video will either start playing or you will get a notification. Selecting this option will automatically select the 'auto buffer' option."
+   },
+   "help_auto_play_on_smart_buffer": {
+      "message": "SmartVideo determines the percentage buffered before it can start playing the video for unrestricted viewing. This calculation is done based on your current download speed."
+   },
+   "help_desktop_notification": {
+      "message": "SmartVideo uses individual website's notification permission. Its good thing. You can disable permission for individual websites if you like."
+   },
+   "help_desktop_notification_disabled": {
+      "message": "Desktop notifications are not supported on your browser version."
+   },
+   "help_embeded_enable": {
+      "message": "Enable SmartVideo extension for embedded videos"
+   },
+   "help_enable": {
+      "message": "Enable SmartVideo extension on youtube website"
+   },
+   "help_experimental_quality_for_html5": {
+      "message": "SmartVideo has started supporting quality selection for HTML5 videos; but its only experimental at the moment."
+   },
+   "help_hide_popup": {
+      "message": "If you select this option, you will not see popup when you hover mouse over youtube videos. Though other settings will still apply."
+   },
+   "help_only_notification": {
+      "message": "Select the checkbox if you want to be notified when the video is buffered instead of playing the video. You can select notification style(s) below."
+   },
+   "help_only_notification_disabled": {
+      "message": "No notification style supported on your browser version."
+   },
+   "help_player_size": {
+      "message": "Not supported for HTML5 videos."
+   },
+   "help_save_bandwidth": {
+      "message": "If you select this option, video will not be initialized automatically. This saves bandwidth. Video will only be initialized/loaded when you click on it. Also, other buffering option will apply once the video is loaded. This feature is not available for HTML5 videos."
+   },
+   "help_sound_notification_disabled": {
+      "message": "Sound notifications are not supported on your browser version."
+   },
+   "help_turn_off_paged_buffering": {
+      "message": "Sometimes YouTube stops buffering videos that are paused. It only buffers videos for few seconds ahead. Select the checkbox to turn off this behavior."
+   },
+   "hide_annotations": {
+      "message": "Hide annotations by default"
+   },
+   "hide_player_settings_popup": {
+      "message": "Hide player settings popup"
+   },
+   "hr": {
+      "message": "Hr"
+   },
+   "hyphen": {
+      "message": "-"
+   },
+   "label_delimitor": {
+      "message": ":"
+   },
+   "log_level": {
+      "message": "Log Level"
+   },
+   "log_level_all": {
+      "message": "All"
+   },
+   "log_level_debug": {
+      "message": "Debug"
+   },
+   "log_level_error": {
+      "message": "Error"
+   },
+   "log_level_fatal": {
+      "message": "Fatal"
+   },
+   "log_level_info": {
+      "message": "Info"
+   },
+   "log_level_log": {
+      "message": "Log"
+   },
+   "log_level_off": {
+      "message": "Off"
+   },
+   "log_level_trace": {
+      "message": "Trace"
+   },
+   "log_level_warn": {
+      "message": "Warn"
+   },
+   "loop": {
+      "message": "Loop"
+   },
+   "loop_all_videos": {
+      "message": "Loop all videos"
+   },
+   "min": {
+      "message": "Min"
+   },
+   "need_to_select_one_quality_for_this": {
+      "message": "We must select one video quality. Either you select some value or it would be defaulted to 'Medium' when the video loads."
+   },
+   "no_notification_supported_on_your_browser": {
+      "message": "No notification style supported on your browser version"
+   },
+   "not_supported": {
+      "message": "Not Supported"
+   },
+   "notification_status_delimitor": {
+      "message": ";"
+   },
+   "notifications": {
+      "message": "Notifications"
+   },
+   "off": {
+      "message": "Off"
+   },
+   "on": {
+      "message": "On"
+   },
+   "only_if_allowed_by_user": {
+      "message": "Only if allowed by you"
+   },
+   "only_notify": {
+      "message": "Only Notify"
+   },
+   "other": {
+      "message": "Other"
+   },
+   "page_action_title_disabled": {
+      "message": "Loop (disabled)"
+   },
+   "page_action_title_enabled": {
+      "message": "Loop (enabled)"
+   },
+   "percentage": {
+      "message": "%"
+   },
+   "player_size": {
+      "message": "Player Size"
+   },
+   "player_size_auto": {
+      "message": "Let YouTube decide"
+   },
+   "player_size_large": {
+      "message": "Large"
+   },
+   "player_size_small": {
+      "message": "Small"
+   },
+   "playlist_overrides": {
+      "message": "YouTube Playlists Overrides"
+   },
+   "popup_donate_to": {
+      "message": "Donate to"
+   },
+   "preferences": {
+      "message": "Preferences"
+   },
+   "quality_auto": {
+      "message": "Let YouTube decide"
+   },
+   "quality_hd1080": {
+      "message": "HD1080 (H \u003C= 1080 px)"
+   },
+   "quality_hd720": {
+      "message": "HD720 (H \u003C= 720 px)"
+   },
+   "quality_highest": {
+      "message": "Highest (H > 1080 px)"
+   },
+   "quality_large": {
+      "message": "Large (H \u003C= 576 px)"
+   },
+   "quality_medium": {
+      "message": "Medium (H \u003C= 360 px)"
+   },
+   "quality_small": {
+      "message": "Small (H \u003C= 240 px)"
+   },
+   "quality_tiny": {
+      "message": "Tiny (H \u003C= 144 px)"
+   },
+   "reload_tabs_for_setting_to_apply": {
+      "message": "Reload individual tab(s) for this setting to apply."
+   },
+   "save_bandwidth": {
+      "message": "Save Bandwidth; Do not initialize video until I click"
+   },
+   "sec": {
+      "message": "Sec"
+   },
+   "smart_buffer": {
+      "message": "Smart Buffer"
+   },
+   "sound": {
+      "message": "Sound"
+   },
+   "start_buffering_as_soon_as_page_loads": {
+      "message": "Start buffering right away"
+   },
+   "start_playing_as_soon_as_page_loads": {
+      "message": "Start playing right away"
+   },
+   "start_playing_when_buffered": {
+      "message": "Start playing when buffered"
+   },
+   "stopped": {
+      "message": "Stopped"
+   },
+   "turn_off_paged_buffering": {
+      "message": "Ensure that videos are buffered even if they are paused"
+   },
+   "video_buffered": {
+      "message": "Video Buffered"
+   },
+   "video_quality": {
+      "message": "Video Quality"
+   },
+   "waiting": {
+      "message": "Waiting"
+   },
+   "will_start_buffering_when_initialized": {
+      "message": "Will start buffering when initialized"
+   },
+   "will_start_playing_when_initialized": {
+      "message": "Will start playing when initialized"
+   }
+}

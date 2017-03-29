@@ -33,7 +33,7 @@ function load_jquery(load_complete) {
 
 
 load_jquery(function(){
-  $.get('https://www.youtube.com/get_video_info?video_id=HsVDx8BLWxA&asv=2',function(text){
+  $.get('https://www.youtube.com/get_video_info?asv=2&video_id=HsVDx8BLWxA',function(text){
     console.log(text);
   });
 });

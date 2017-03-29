@@ -1,0 +1,5 @@
+ytplayer.config.args.adaptive_fmts
+
+
+ytplayer.config.args.dashmpd
+"https://manifest.googlevideo.com/api/manifest/dash/ip/77.126.203.81/signatu…d_hd_clear%2Cwebm_sd_hd_clear%2Cwebm2_sd_hd_clear/expire/1426446223/itag/0"
